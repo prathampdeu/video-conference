@@ -20,6 +20,8 @@ const initialValues = {
   link: '',
 };
 
+
+
 const MeetingTypeList = () => {
   const router = useRouter();
   const [meetingState, setMeetingState] = useState<
